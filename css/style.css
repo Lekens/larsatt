@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo h1 {
   font-size: 36px;
-  margin: -4px 0 0 0;
+  margin: 0 0 0 0;
   padding: 0;
   line-height: 1;
   display: inline-block;
@@ -1131,7 +1131,18 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 28px;
   font-size: 14px;
 }
+#contact .contact-about p {
+  padding: 0 0 10px 42px;
+  line-height: 28px;
+  font-size: 14px;
+}
 
+#contact .contact-about .i {
+  font-size: 32px;
+  color: #1dc8cd;
+  float: left;
+  line-height: 1;
+}
 #contact .form #sendmessage {
   color: #1dc8cd;
   border: 1px solid #1dc8cd;
